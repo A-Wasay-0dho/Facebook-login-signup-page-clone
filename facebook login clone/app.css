@@ -1,0 +1,154 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#mainD {
+    background-color: #f2f4f7;
+    width: 100vw;
+    height: 550px;
+}
+
+#logo {
+    width: 250px;
+    height: 100px;
+    margin: 0px 0 -15px 0;
+    /* background-color: aqua; */
+
+}
+
+p {
+    /* background-color: aqua; */
+    /* border: 1px solid black; */
+    margin: 0 0 15px 0;
+    padding-top: 20px;
+    font-size: 18px;
+    color: #1c1e21;
+}
+
+#content {
+    background-color: #ffffff;
+    width: 396px;
+    height: 376px;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgb(219, 214, 214);
+    position: relative;
+}
+
+#imgd {
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+#email {
+    height: 52px;
+    width: 364px;
+    border-radius: 8px;
+    border: 1px solid gainsboro;
+    padding-left: 10px;
+    outline: none;
+    vertical-align: middle;
+    line-height: 22px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#pass {
+    height: 52px;
+    width: 364px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    border: 1px solid gainsboro;
+    padding-left: 10px;
+    outline: none;
+
+}
+
+.stile::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #888;
+    transition: color 0.2s;
+    
+    
+
+}
+.stile:focus::placeholder {
+    color: #bbb; 
+}
+.stile:focus{
+    outline: #1877F2;
+}
+#eye {
+    position: absolute;
+    /* right: 25px; */
+    top: 140px;
+    /* bottom: 6px; */
+    right: 20px;
+    display: none;
+}
+
+#style {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+#leftDiv,
+#rightDiv {
+    background-color: rgb(194, 191, 191);
+    height: 1px;
+    width: 150px;
+    margin-top: 8px;
+
+
+}
+
+#or {
+    margin: 0 10px;
+}
+
+#btn {
+    margin-top: 14px;
+    width: 364px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #1877F2;
+    cursor: pointer;
+
+}
+
+a {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    color: #1877F2;
+}
+
+#createbtn {
+    border: none;
+    width: 192.61px;
+    height: 48px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #42b72a;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+#createbtn:hover {
+    background-color: #24b407;
+}
